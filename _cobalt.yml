@@ -1,0 +1,3 @@
+source: "src"
+ignore:
+    - node_modules

@@ -1,0 +1,23 @@
+#footer {
+    padding: 30px 0;
+    background: #e0d6d2;
+    text-align: center;
+}
+
+#associations {
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20%;
+    margin-bottom: 30px;
+}
+
+#map {
+    height: 200px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+#footer p {
+    margin: 0;
+}

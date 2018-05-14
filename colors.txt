@@ -1,0 +1,6 @@
+dark blue:   #2c4a59
+dark green:  #4a5951
+forest:      #414932
+light green: #7f8070
+light brown: #bfa27a
+white:       #e0d6d2

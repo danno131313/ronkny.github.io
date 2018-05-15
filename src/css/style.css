@@ -107,7 +107,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 769px) {
     body {
         margin: 0;
     }
@@ -141,12 +141,12 @@ body {
         display: none;
     }
 
-    #navbar a.item {
+    #navbar *.item {
         font-size: 1.2em;
         color: white;
     }
 
-    #navbar a.active.item {
+    #navbar *.active.item {
         border-bottom: 2px solid white;
     }
 

@@ -1,5 +1,21 @@
+@media only screen and (min-width: 769px) {
+    #footer {
+        padding: 30px 0;
+    }
+
+    #associations {
+        padding: 0 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #associations img {
+        height: auto;
+        width: 30%;
+    }
+}
+
 #footer {
-    padding: 30px 0;
     background: #e0d6d2;
     text-align: center;
 }
@@ -8,7 +24,6 @@
     background: white;
     display: flex;
     justify-content: space-evenly;
-    padding: 0 20%;
     margin-bottom: 30px;
 }
 

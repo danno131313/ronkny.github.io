@@ -1,0 +1,192 @@
+body {
+    font-family: 'Raleway';
+    --lightgrey: #e0d6d2;
+    --blue: #071c32;
+    --darkgreen: #4a5951;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    #header {
+        background: var(--blue);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header-content {
+        position: relative;
+        width: 100%;
+    }
+
+    #mobile-navbar {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--darkgreen);
+        width: 100%;
+        margin: 0;
+        z-index: 100;
+        border-bottom: 1px solid black; 
+    }
+
+    #hamburger-menu-btn {
+        color: var(--lightgrey);
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #pic1 {
+        background-image: url("../img/pazzoslide41.jpg");
+        background-size: cover;
+    }
+
+    #pic2 {
+        background-image: url("../img/pazzoslidewithgradient.jpg");
+        background-size: cover;
+    }
+
+    .pic {
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: var(--blue);
+    }
+
+    #logo p {
+        color: var(--lightgrey);
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #main-page {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #schedule-appointment {
+        padding: 25px;
+        background: var(--darkgreen);
+        margin-top: 30px;
+        color: var(--lightgrey);
+        font-size: 1.2em;
+        font-weight: bold;
+        border-radius: .5em;
+        word-spacing: 5px;
+    }
+
+    #contact-header {
+        position: absolute;
+        z-index: 50;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        font-size: 1.2em;
+        text-align: center;
+        color: white;
+        padding: 10px;
+    }
+
+    #contact-header span {
+        font-weight: bold;
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        margin: 0;
+    }
+
+    #header {
+        width: 55%;
+        min-width: 834px;
+        height: 202px;
+        background: var(--blue);
+    }
+
+    #header-wrapper {
+        background: var(--blue);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #header-content {
+        display: flex;
+    }
+
+    #navbar {
+        width: 100%;
+        background: var(--darkgreen);
+        margin: 0;
+        height: 50px;
+        z-index: 100;
+        border-bottom: 0;
+    }
+
+    #mobile-navbar {
+        display: none;
+    }
+
+    #navbar *.item {
+        font-size: 1.2em;
+        color: white;
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #navbar *.active.item {
+        border-bottom: 2px solid white;
+    }
+
+    #logo {
+        z-index: 100;
+        background: var(--blue);
+    }
+
+    #logo p {
+        color: var(--lightgrey);
+        font-size: 1.1em;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #main-page {
+        width: 100%;
+        background: var(--lightgrey);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-header {
+        z-index: 50;
+        background: rgba(0, 0, 0, 0.7);
+        font-size: 2em;
+        text-align: center;
+        line-height: 120px;
+        color: white;
+        padding: 10px;
+        flex: 1;
+    }
+
+    #contact-header span {
+        font-weight: bold;
+        margin-left: 12px;
+    }
+}

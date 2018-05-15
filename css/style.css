@@ -1,5 +1,8 @@
 body {
     font-family: 'Raleway';
+    --lightgrey: #e0d6d2;
+    --blue: #071c32;
+    --darkgreen: #4a5951;
 }
 
 @media only screen and (max-width: 768px) {
@@ -8,7 +11,7 @@ body {
     }
 
     #header {
-        background: #2c4a59;
+        background: var(--blue);
         width: 100%;
         display: flex;
         justify-content: center;
@@ -24,7 +27,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #4a5951;
+        background: var(--darkgreen);
         width: 100%;
         margin: 0;
         z-index: 100;
@@ -32,7 +35,7 @@ body {
     }
 
     #hamburger-menu-btn {
-        color: #e0d6d2;
+        color: var(--lightgrey);
     }
 
     #navbar {
@@ -59,11 +62,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #2c4a59;
+        background: var(--blue);
     }
 
     #logo p {
-        color: #e0d6d2;
+        color: var(--lightgrey);
         font-size: 1.1em;
         text-align: center;
         margin-bottom: 5px;
@@ -78,9 +81,9 @@ body {
 
     #schedule-appointment {
         padding: 25px;
-        background: #4a5951;
+        background: var(--darkgreen);
         margin-top: 30px;
-        color: #e0d6d2;
+        color: var(--lightgrey);
         font-size: 1.2em;
         font-weight: bold;
         border-radius: .5em;
@@ -111,7 +114,7 @@ body {
 
     #header {
         height: 500px;
-        background: #2c4a59;
+        background: var(--blue);
         width: 100%;
         display: flex;
         justify-content: center;
@@ -126,7 +129,7 @@ body {
 
     #navbar {
         width: 100%;
-        background: #4a5951;
+        background: var(--darkgreen);
         margin: 0;
         height: 50px;
         position: relative;
@@ -170,11 +173,11 @@ body {
         position: absolute;
         left: 10px;
         z-index: 100;
-        background: #2c4a59;
+        background: var(--blue);
     }
 
     #logo p {
-        color: #e0d6d2;
+        color: var(--lightgrey);
         font-size: 1.1em;
         text-align: center;
         margin-bottom: 5px;
@@ -182,7 +185,7 @@ body {
 
     #main-page {
         width: 100%;
-        background: #e0d6d2;
+        background: var(--lightgrey);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -213,7 +216,7 @@ body {
 
     #schedule-appointment {
         padding: 25px;
-        background: #4a5951;
+        background: var(--darkgreen);
         margin-top: 30px;
         color: white;
         font-size: 2em;
@@ -240,7 +243,7 @@ body {
 
     #content {
         width: 100%;
-        background: #2c4a59;
+        background: var(--blue);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -248,7 +251,7 @@ body {
     }
 
     #inner-content {
-        background: #2c4a59;
+        background: var(--blue);
         color: white;
         width: 55%;
         min-width: 834px;
@@ -267,5 +270,46 @@ body {
 
     #inner-content p {
         font-size: 1.2em;
+    }
+
+    #mini-infos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info h1 {
+        text-align: center;
+    }
+
+    .info p {
+        font-size: 1.2em;
+    }
+    
+    .info-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 50px 25px 50px;
+        margin: 0 25px 25px 25px;
+        width: 400px;
+        height: 500px;
+        background: white;
+    }
+
+    .info-wrapper a {
+        color: white;
+        padding: 18px;
+        width: 240px;
+        background: var(--darkgreen);
+        font-size: 1.7em;
+        text-align: center;
+        border-radius: 0.5em;
     }
 }

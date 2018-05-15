@@ -113,6 +113,8 @@ body {
     }
 
     #header {
+        border-left: 1px solid var(--darkgreen);
+        border-right: 1px solid var(--darkgreen);
         width: 55%;
         min-width: 834px;
         height: 202px;
@@ -188,5 +190,28 @@ body {
     #contact-header span {
         font-weight: bold;
         margin-left: 12px;
+    }
+
+    .pusher {
+        background: var(--lightgrey);
+    }
+
+    #main-page {
+        height: 800px;
+        width: 100%;
+        background: var(--lightgrey);
+    }
+
+    #content {
+        margin: 50px 0;
+        background: white;
+        min-width: 834px;
+        width: 55%;
+        height: 100%;
+        padding: 50px;
+    }
+
+    #content p {
+        font-size: 1.2em;
     }
 }

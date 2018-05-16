@@ -5,7 +5,7 @@ body {
     --darkgreen: #4a5951;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     body {
         margin: 0;
     }
@@ -107,7 +107,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 901px) {
     body {
         margin: 0;
     }

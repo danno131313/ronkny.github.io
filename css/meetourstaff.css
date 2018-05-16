@@ -1,0 +1,26 @@
+#staffpic {
+    width: 75%;
+    margin: 0 auto;
+    border: 3px solid #071c32;
+}
+
+#picgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#picgrid img {
+    border: 3px solid #071c32;
+    margin: 20px 8px 0 8px;
+    height: 250px;
+    width: auto;
+}
+
+#picgrid .picalt {
+    height: 350px;
+}
+
+#content {
+    padding: 20px 0;
+}

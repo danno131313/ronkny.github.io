@@ -16,7 +16,9 @@
 }
 
 #footer {
-    background: #e0d6d2;
+    margin-top: 30px;
+    background: #071c32;
+    color: white;
     text-align: center;
 }
 
@@ -35,4 +37,9 @@
 
 #footer p {
     margin: 0;
+}
+
+#footer-split {
+    display: flex;
+    justify-content: space-evenly;
 }

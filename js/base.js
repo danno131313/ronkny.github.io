@@ -13,7 +13,7 @@ $(document).ready(function(){
         on: 'hover'
     });
 
-    $('#mobile-navbar').on('click touchstart', function() {
+    $('#mobile-navbar').on('click touch', function() {
         $('.ui.sidebar').sidebar('toggle');
     });
 });

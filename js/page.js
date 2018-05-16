@@ -3,7 +3,7 @@ $(document).ready(function(){
         on: 'hover'
     });
 
-    $('#hamburger-menu-btn').on('click touchstart', function() {
+    $('#mobile-navbar').on('click touchstart', function() {
         $('.ui.sidebar').sidebar('toggle');
     });
 });

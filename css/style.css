@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway';
+    font-family: 'Raleway', Helvetica, sans-serif;
     --lightgrey: #e0d6d2;
     --blue: #071c32;
     --darkgreen: #4a5951;
@@ -80,6 +80,22 @@ body {
         margin-bottom: 5px;
     }
 
+    #contact-header {
+        position: absolute;
+        z-index: 50;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        font-size: 1.2em;
+        text-align: center;
+        color: white;
+        padding: 10px;
+    }
+
+    #contact-header span {
+        font-weight: bold;
+        margin-left: 12px;
+    }
+
     #main-page {
         width: 100%;
         background: var(--lightgrey);
@@ -125,22 +141,6 @@ body {
         word-spacing: 8px;
     }
 
-    #contact-header {
-        position: absolute;
-        z-index: 50;
-        background: rgba(0, 0, 0, 0.7);
-        width: 100%;
-        font-size: 1.2em;
-        text-align: center;
-        color: white;
-        padding: 10px;
-    }
-
-    #contact-header span {
-        font-weight: bold;
-        margin-left: 12px;
-    }
-
     #content {
         width: 100%;
         background: var(--blue);
@@ -154,6 +154,7 @@ body {
         background: var(--blue);
         color: white;
     }
+
 
     #inner-content h1 {
         font-size: 1.7em;
@@ -178,20 +179,6 @@ body {
         padding-bottom: 50px;
     }
 
-    .info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info h1 {
-        text-align: center;
-    }
-
-    .info p {
-        font-size: 1.2em;
-    }
-    
     .info-wrapper {
         display: flex;
         flex-direction: column;
@@ -212,6 +199,20 @@ body {
         font-size: 1.7em;
         text-align: center;
         border-radius: 0.5em;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mini-infos .info h1 {
+        text-align: center;
+    }
+
+    #mini-infos .info p {
+        font-size: 1.2em;
     }
 }
 
@@ -394,11 +395,11 @@ body {
         align-items: center;
     }
 
-    .info h1 {
+    #mini-infos .info h1 {
         text-align: center;
     }
 
-    .info p {
+    #mini-infos .info p {
         font-size: 1.2em;
     }
     

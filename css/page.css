@@ -1,5 +1,5 @@
 body {
-    font-family: 'Raleway';
+    font-family: 'Raleway', Helvetica, sans-serif;
     --lightgrey: #e0d6d2;
     --blue: #071c32;
     --darkgreen: #4a5951;
@@ -180,6 +180,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 50px;
     }
 
     #contact-header {
@@ -200,12 +201,6 @@ body {
 
     .pusher {
         background: var(--lightgrey);
-    }
-
-    #main-page {
-        width: 100%;
-        background: var(--lightgrey);
-        padding-bottom: 50px;
     }
 
     #content {

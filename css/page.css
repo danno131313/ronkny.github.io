@@ -197,6 +197,7 @@ body {
     #main-page {
         width: 100%;
         background: var(--lightgrey);
+        padding-bottom: 50px;
     }
 
     #content {

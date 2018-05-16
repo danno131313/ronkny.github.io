@@ -16,7 +16,6 @@
 }
 
 #footer {
-    margin-top: 30px;
     background: #071c32;
     color: white;
     text-align: center;
@@ -42,4 +41,8 @@
 #footer-split {
     display: flex;
     justify-content: space-evenly;
+}
+
+.footer-split-side {
+    width: 350px;
 }

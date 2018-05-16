@@ -14,11 +14,11 @@ body {
         background: var(--blue);
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 
     #header-content {
-        position: relative;
         width: 100%;
     }
 
@@ -30,7 +30,6 @@ body {
         background: var(--darkgreen);
         width: 100%;
         margin: 0;
-        z-index: 100;
         border-bottom: 1px solid black; 
     }
 
@@ -40,22 +39,6 @@ body {
 
     #navbar {
         display: none;
-    }
-
-    #pic1 {
-        background-image: url("../img/pazzoslide41.jpg");
-        background-size: cover;
-    }
-
-    #pic2 {
-        background-image: url("../img/pazzoslidewithgradient.jpg");
-        background-size: cover;
-    }
-
-    .pic {
-        height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
     }
 
     #logo {
@@ -71,9 +54,9 @@ body {
         text-align: center;
         margin-bottom: 5px;
     }
-
     #main-page {
         width: 100%;
+        background: var(--lightgrey);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -83,16 +66,14 @@ body {
         padding: 25px;
         background: var(--darkgreen);
         margin-top: 30px;
-        color: var(--lightgrey);
+        color: white;
         font-size: 1.2em;
         font-weight: bold;
         border-radius: .5em;
-        word-spacing: 5px;
+        word-spacing: 8px;
     }
 
     #contact-header {
-        position: absolute;
-        z-index: 50;
         background: rgba(0, 0, 0, 0.7);
         width: 100%;
         font-size: 1.2em;
@@ -104,6 +85,25 @@ body {
     #contact-header span {
         font-weight: bold;
         margin-left: 12px;
+    }
+
+    #content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+        background: white;
+    }
+
+    .splitter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content img {
+        margin: 20px 0;
     }
 }
 

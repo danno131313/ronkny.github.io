@@ -1,20 +1,3 @@
-@media only screen and (min-width: 769px) {
-    #footer {
-        padding: 30px 0;
-    }
-
-    #associations {
-        padding: 0 20%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #associations img {
-        height: auto;
-        width: 30%;
-    }
-}
-
 #footer {
     background: #071c32;
     color: white;
@@ -29,7 +12,6 @@
 }
 
 #map {
-    height: 200px;
     width: auto;
     margin-bottom: 30px;
 }
@@ -43,6 +25,50 @@
     justify-content: space-evenly;
 }
 
-.footer-split-side {
-    width: 350px;
+@media only screen and (min-width: 769px) {
+    #footer {
+        padding: 30px 0;
+    }
+
+    #associations {
+        padding: 0 20%;
+    }
+    
+    #map {
+        height: 200px;
+    }
+
+    .footer-split-side {
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #associations img {
+        height: auto;
+        width: 30%;
+    }
+
+    #associations {
+        margin-bottom: 10px;
+    }
+
+    #map {
+        height: auto;
+        width: 100%;
+    }
+
+    #footer-split {
+        flex-direction: column;
+        padding: 25px 15px;
+    }
+
+    #footer p {
+        font-size: 0.8em;
+    }
+
+    #footer-paragraphs {
+        padding: 5px;
+    }
 }

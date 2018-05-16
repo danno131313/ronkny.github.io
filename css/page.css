@@ -237,4 +237,8 @@ body {
         height: 240px;
         margin: 0 0 25px 25px;
     }
+
+    #content li {
+        font-size: 1.2em;
+    }
 }

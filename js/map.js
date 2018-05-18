@@ -12,7 +12,7 @@ function bhamMap() {
         if (status == google.maps.places.PlacesServiceStatus.OK) {
             var marker = new google.maps.Marker({
                 map: map,
-                position: place.geometry.location,
+                position: mapOptions.center,
             });
             google.maps.event.addListener(marker, 'click', function() {
                 infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +

@@ -239,14 +239,11 @@ body {
         margin-bottom: 25px;
     }
 
-    .splitter {
-        display: flex;
-    }
-
     .splitter img {
         width: auto;
         height: 240px;
         margin: 0 0 25px 25px;
+        float: right;
     }
 
     #content li {

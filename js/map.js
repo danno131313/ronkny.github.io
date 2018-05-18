@@ -8,17 +8,13 @@ function bhamMap() {
     var service = new google.maps.places.PlacesService(map);
     var infowindow = new google.maps.InfoWindow();
 
-    service.getDetails({ placeId: "ChIJi_VX1ZSjhVQRIAU8G_CvOIs" }, function(place, status) {
-        if (status == google.maps.places.PlacesServiceStatus.OK) {
-            var marker = new google.maps.Marker({
-                map: map,
-                position: mapOptions.center,
-            });
-            google.maps.event.addListener(marker, 'click', function() {
-                infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-                    place.formatted_address + '</div>');
-                infowindow.open(map, this);
-            });
-        }
+    var marker = new google.maps.Marker({
+        map: map,
+        position: mapOptions.center,
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+            place.formatted_address + '</div>');
+        infowindow.open(map, this);
     });
 }

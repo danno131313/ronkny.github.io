@@ -1,0 +1,41 @@
+.bold {
+    font-weight: bold;
+}
+
+#content table {
+    border: 2px solid var(--blue);
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+#top {
+    margin: 30px 0 50px 0;
+}
+
+#bhamMap {
+    height: 500px;
+    width: 100%;
+    border: 2px solid var(--blue);
+}
+
+.contact-info {
+    margin-top: 75px;
+}
+
+.time {
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 901px) {
+}
+
+@media only screen and (max-width: 900px) {
+    #content {
+        font-size: 1.2em;
+    }
+    #hours-h3 {
+        text-align: center;
+        margin-top: 70px;
+    }
+}

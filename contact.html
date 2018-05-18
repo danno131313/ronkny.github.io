@@ -3,7 +3,49 @@ layout: page
 title: Contact
 description: Dr. Kavanagh is committed to providing his patients with the highest-quality dental care in a comfortable, relaxing environment. Contact us today to make an appointment
 ---
+<link rel="stylesheet" href="./css/contact.css" type="text/css" media="all" />
+
 <div id="content">
-    <h1>Contact Us</h1>
-    <p>Phone number, address, etc.</p>
+    <h1>Contact Our Bellingham Office</h1>
+    <div id="top" class="splitter">
+        <div>
+            <h3>Bellingham Smiles</h3>
+            <p>1420 King St. Suite B</p>
+            <p>Bellingham, WA 98229</p>
+            <div class="contact-info">
+                <p><span class="bold">Phone: </span>360-671-4552</p>
+                <p><span class="bold">Toll Free: </span>888-248-2928</p>
+            </div>
+        </div>
+        <div>
+            <h3 id="hours-h3">Hours:</h3>
+            <table>
+                <tr>
+                    <td>Monday</td>
+                    <td class="time">8:00am to 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td class="time">8:00am to 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td class="time">8:00am to 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td class="time">8:00am to 1:00pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td class="time">By Appointment</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <h3>Our Location:</h3>
+    <div id="bhamMap"/>
 </div>
+
+<script src="./js/map.js" charset="utf-8"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW1msR7NfYOzY3TKDUoub7hC3DB19C5zw&callback=bhamMap&libraries=places"></script>

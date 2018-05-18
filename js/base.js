@@ -7,6 +7,10 @@ $(document).ready(function(){
         dots: false,
         smartSpeed: 700,
         autoHeight: true,
+        mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
+        freeDrag: false,
     });
     
     $('.ui.dropdown').dropdown({

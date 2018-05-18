@@ -248,10 +248,15 @@ body {
         display: flex;
     }
 
+    .splitter div {
+        height: auto;
+        flex: 1;
+    }
+
     .splitter img {
         width: auto;
-        height: 240px;
-        margin: 0 0 25px 25px;
+        height: 200px;
+        margin: 0 0 0 25px;
     }
 
     #content li {

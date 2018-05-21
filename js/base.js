@@ -12,7 +12,7 @@ $(document).ready(function(){
         pullDrag: false,
         freeDrag: false,
     });
-    
+
     $('.ui.dropdown').dropdown({
         on: 'hover'
     });

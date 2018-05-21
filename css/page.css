@@ -29,6 +29,22 @@ body {
     margin-bottom: 8px;
 }
 
+#smile-gallery {
+    width: 100%;
+}
+
+#smile-gallery .table-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+#smile-gallery h3 {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+}
+
 @media only screen and (max-width: 900px) {
     body {
         margin: 0;
@@ -274,4 +290,5 @@ body {
     #meet-staff-header {
         text-align: center;
     }
+
 }

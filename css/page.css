@@ -23,6 +23,7 @@ body {
 
 #content img, #map {
     border: 3px solid var(--blue);
+    margin-bottom: 10px;
 }
 
 #content ul li {

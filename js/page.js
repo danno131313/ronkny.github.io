@@ -4,6 +4,8 @@ $(document).ready(function(){
     });
 
     $('#mobile-navbar').on('click touch', function() {
-        $('.ui.sidebar').sidebar('toggle');
+        $('.ui.sidebar')
+            .sidebar('setting', 'transition', 'overlay')
+            .sidebar('toggle');
     });
 });

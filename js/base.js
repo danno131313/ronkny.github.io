@@ -17,7 +17,9 @@ $(document).ready(function(){
         on: 'hover'
     });
 
-    $('#mobile-navbar').on('click touch', function() {
-        $('.ui.sidebar').sidebar('toggle');
+    $('.ui.sidebar').sidebar({
+        transition: 'overlay'
     });
+
+    $('.ui.sidebar').sidebar('attach events', '#mobile-navbar');
 });
